@@ -178,13 +178,6 @@ TW_USE_TOOLBOX := true
 TW_INCLUDE_PYTHON := true
 RECOVERY_SDCARD_ON_DATA := true
 
-# Dynamic Partition handling flags
-IGNORE_UPDATE_LOGICAL_PARTITION_ERROR := true # Makes twrp ignore "unable to update logical partition" error
-
-# Removes the loop block errors after flashing ZIPs (Workaround) 
-TW_IGNORE_LOGICAL_MOUNT_ERRORS := true
-TW_LOOP_DEVICE_ERRORS_TO_LOG := true
-
 # USB Configuration
 TW_EXCLUDE_DEFAULT_USB_INIT := true
 TARGET_USE_CUSTOM_LUN_FILE_PATH := /config/usb_gadget/g1/functions/mass_storage.usb0/lun.%d/file
